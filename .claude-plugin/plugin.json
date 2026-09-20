@@ -1,0 +1,13 @@
+{
+  "name": "clera",
+  "description": "Hire from Claude: search 210,000+ vetted startup candidates, review Clera's picks, and request intros through the Clera MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Clera Labs, Inc.",
+    "email": "hello@getclera.com"
+  },
+  "homepage": "https://www.getclera.com/mcp",
+  "repository": "https://github.com/getclera/mcp",
+  "license": "MIT",
+  "keywords": ["recruiting", "hiring", "talent", "mcp"]
+}
