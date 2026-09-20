@@ -1,0 +1,14 @@
+{
+  "name": "clera",
+  "owner": {
+    "name": "Clera Labs, Inc.",
+    "email": "hello@getclera.com"
+  },
+  "plugins": [
+    {
+      "name": "clera",
+      "source": "./",
+      "description": "Clera MCP plus the Clera hiring skill: search vetted startup candidates and request intros from Claude Code."
+    }
+  ]
+}
