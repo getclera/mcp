@@ -1,0 +1,10 @@
+{
+  "name": "clera",
+  "version": "1.0.0",
+  "description": "Hire from Gemini CLI: search 210,000+ vetted startup candidates, review Clera's picks, and request intros through the Clera MCP.",
+  "mcpServers": {
+    "clera": {
+      "httpUrl": "https://mcp.getclera.com"
+    }
+  }
+}
