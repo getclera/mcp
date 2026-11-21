@@ -2,7 +2,7 @@
   "name": "clera",
   "displayName": "Clera",
   "version": "1.0.0",
-  "description": "Hire from Cursor: search 210,000+ vetted startup candidates, review Clera's picks, and request intros through the Clera MCP.",
+  "description": "Clera MCP for Cursor: search vetted startup candidates, request hiring introductions, or find and apply to jobs with confirmation.",
   "author": {
     "name": "Clera Labs, Inc.",
     "email": "hello@getclera.com"
@@ -10,6 +10,15 @@
   "homepage": "https://www.getclera.com/mcp",
   "repository": "https://github.com/getclera/mcp",
   "license": "MIT",
-  "keywords": ["clera", "mcp", "recruiting", "hiring", "talent", "candidates", "sourcing", "startups"],
+  "keywords": [
+    "clera",
+    "mcp",
+    "recruiting",
+    "hiring",
+    "talent",
+    "candidates",
+    "sourcing",
+    "startups"
+  ],
   "logo": "assets/logo.svg"
 }
