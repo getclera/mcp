@@ -1,0 +1,19 @@
+{
+  "identifier": "getclera-mcp",
+  "name": "Clera MCP",
+  "version": "1.0.0",
+  "description": "Hire startup talent or find jobs from your AI assistant. Search vetted candidates, request introductions, compare openings and track applications through Clera's hosted OAuth MCP server.",
+  "author": "Clera Labs, Inc.",
+  "authorUrl": "https://github.com/getclera",
+  "homepage": "https://www.getclera.com/mcp",
+  "cloudEndpoint": "https://mcp.getclera.com",
+  "tags": [
+    "recruiting",
+    "hiring",
+    "startup",
+    "job-search",
+    "talent",
+    "oauth",
+    "mcp"
+  ]
+}

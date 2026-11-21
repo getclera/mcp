@@ -1,0 +1,36 @@
+name: Publish Clera skill to ClawHub
+
+on:
+  pull_request:
+    paths:
+      - "skills/clera/**"
+      - ".github/workflows/clawhub-publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  preview:
+    if: github.event_name == 'pull_request'
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    with:
+      skill_path: skills/clera
+      owner: getclera
+      dry_run: true
+      categories: integrations,productivity
+      topics: recruiting,hiring,job-search,mcp
+
+  publish:
+    if: github.event_name == 'workflow_dispatch'
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@v1
+    with:
+      skill_path: skills/clera
+      owner: getclera
+      dry_run: false
+      categories: integrations,productivity
+      topics: recruiting,hiring,job-search,mcp
+      changelog: "Publish Clera MCP hiring and job-search skill"
+    secrets:
+      clawhub_token: ${{ secrets.CLAWHUB_TOKEN }}
